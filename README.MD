@@ -18,7 +18,7 @@ My web app takes either three angles or three sides. It will assess the values y
 ## Technologies Used
 {This website was written in HTML, CSS and JavaScript.}
 ## Live Link
-{}
+{https://jeremykimotho.github.io/triangle_detector/}
 ### License
 *{MIT License. You're free to use it as you'd like.}*
 Copyright (c) {2018} **{Jeremy Kimotho}**
