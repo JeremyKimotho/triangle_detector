@@ -38,3 +38,4 @@ function myFunctionS() {
     response_s.textContent = 'That is not a triangle'
   }
 }
+
