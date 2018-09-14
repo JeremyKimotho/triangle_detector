@@ -22,3 +22,16 @@ body {
   text-align:center;
   background-color:#A9CCE3;
 }
+.angles {
+  border: 2px solid black;
+  margin: 10px;
+  width:190px;
+  text-align:center;
+  background-color:#A9CCE3;
+}
+.response_a {
+  text-align:center;
+}
+.response_s {
+  text-align:center;
+}
