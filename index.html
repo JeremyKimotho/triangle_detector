@@ -1,34 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href='css/styles.css' rel="stylesheet" type="text/css">
     <link rel="shortcut icon" href="images/title.ico"/>
     <title>Triangle Detector</title>
 </head>
 <body>
   <h1>Welcome to the Triangle Detector</h1>
   <p>
-    <h3>Please enter the sides and angles of your triangle in the input boxes. If you don't know the terminlogies used, please refer to the sample triangle. </h3>
+    <h3>Please enter the sides or angles of your triangle in the input boxes. If you don't know the terminlogies used, please refer to the sample triangle. </h3>
     <img src='images/example.png' alt='example image of triangle' class='example'>
   </p>
-  <p>
-    Enter Side A:
+  <div class='sides'>
+    <p>
+      Enter Side A:
+        <br>
+          <input type="number" id="input" name="sA">
+    </p>
+    <p>
+      Enter Side B:
+        <br>
+          <input type="number" id="input" name="sB">
+    </p>
+    <p>
+      Enter Side C:
       <br>
-        <input type="number" id="input" name="sA">
-        <input type="button" value="Enter" onclick="myFunction()">
-  </p>
-  <p>
-    Enter Side B:
+      <input type="number" id="input" name="sC">
       <br>
-        <input type="number" id="input" name="sB">
-        <input type="button" value="Enter" onclick="myFunction()">
-  </p>
-  <p>
-    Enter Side C:
-    <br>
-    <input type="number" id="input" name="sC">
-    <input type="button" value="Enter" onclick="myFunction()">
-  </p>
-  <p id="response"></p>
+      <input type="button" value="Enter" onclick="myFunction()">
+    </p>
+  </div>
+  <br>
+  <p id="response_s"></p>
+  <div class='angles'>
+    <p>
+      Enter Angle A:
+      <br>
+      <input type="number" id="angleA" name="angleA">
+    </p>
+    <p>
+      Enter Angle B:
+      <br>
+      <input type="number" id="angleB" name="angleB">
+    </p>
+    <p>
+      Enter Angle C:
+      <br>
+      <input type="number" id="angleC" name="angleC">
+      <br>
+      <input type="button" value="Enter" onclick="myFunctionA()">
+    </p>
+  </div>
+  <p id="response_a"></p>
   </body>
   <script src="js/script.js"></script>
 </html>
