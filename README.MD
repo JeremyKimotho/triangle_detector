@@ -4,7 +4,7 @@
 ## Description
 My web app takes either three angles or three sides. It will assess the values you input and tell you if the values you put in would make a scalene, isosceles, equilateral triangle or not a triangle at all. It does this by using the rules of a triangle -all angles equal 180 and the sum of two sides is equal to or larger than the third.
 ## BDD
-* This is a great place
+* I first had to make textboxes and input fields to collect the data.
 * to list setup instructions
 * in a simple
 * easy-to-understand
