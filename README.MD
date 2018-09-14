@@ -5,8 +5,8 @@
 My web app takes either three angles or three sides. It will assess the values you input and tell you if the values you put in would make a scalene, isosceles, equilateral triangle or not a triangle at all. It does this by using the rules of a triangle -all angles equal 180 and the sum of two sides is equal to or larger than the third.
 ## BDD
 * I first had to make textboxes and input fields to collect the data.
-* to list setup instructions
-* in a simple
+* I then had to create a way to trigger my function running once the data was collected, I did this using a button.
+* The function that calculated if it was a triangle and what type, needed to be able to only collect number data types, and no letters and so i made the input type number
 * easy-to-understand
 * format
 *
